@@ -1,0 +1,8 @@
+<svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+  <!-- Solid play triangle pointing left -->
+  <path d="M20 5V19L8 12L20 5Z" fill="white"/>
+
+  <!-- Solid vertical bar on the left -->
+  <rect x="4" y="4" width="2" height="16" fill="white"/>
+</svg>
+
