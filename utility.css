@@ -1,0 +1,129 @@
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.border{
+    border: 2px solid rebeccapurple;
+    
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.rounded{
+    border-radius: 7px;
+
+}
+.m1{
+    margin: 5px;
+}
+.p1{
+    padding: 15px;
+}
+.s16px{
+    font-size: 16px;
+}
+.s14px{
+    font-size: 14px;
+}
+
+
+.my-scroll-container {
+  max-height: 74vh; /* or any height you want */
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox hides scrollbar */
+}
+
+/* Show scrollbar only on hover (Firefox won’t show it at all) */
+.my-scroll-container::-webkit-scrollbar {
+  width: 10px;
+  transition: opacity 0.3s;
+  opacity: 0; /* hidden by default */
+}
+
+.my-scroll-container:hover::-webkit-scrollbar {
+  opacity: 1; /* visible on hover */
+}
+
+.my-scroll-container::-webkit-scrollbar-button {
+  display: none; /* removes top/bottom arrows */
+}
+
+.my-scroll-container::-webkit-scrollbar-track {
+  background: #111;
+  border-radius: 10px;
+}
+
+.my-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+  border: 2px solid #111;
+}
+
+.my-scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+.my-scroll-container2 {
+  max-height: 450px; /* or any height you want */
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox hides scrollbar */
+  margin-bottom: 80px;
+}
+
+/* Show scrollbar only on hover (Firefox won’t show it at all) */
+.my-scroll-container2::-webkit-scrollbar {
+  width: 10px;
+  transition: opacity 0.3s;
+  opacity: 0; /* hidden by default */
+}
+
+.my-scroll-container2:hover::-webkit-scrollbar {
+  opacity: 1; /* visible on hover */
+}
+
+.my-scroll-container2::-webkit-scrollbar-button {
+  display: none; /* removes top/bottom arrows */
+}
+
+.my-scroll-container2::-webkit-scrollbar-track {
+  background: #111;
+  border-radius: 10px;
+}
+
+.my-scroll-container2::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+  border: 2px solid #111;
+}
+
+.my-scroll-container2::-webkit-scrollbar-thumb:hover {
+  background-color: #777;
+}
+
